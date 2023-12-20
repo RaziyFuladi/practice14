@@ -1,0 +1,165 @@
+/* this is public styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing:border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif; 
+    text-transform: capitalize;
+    color: rgb(230, 225, 88);
+    
+}
+
+input{
+    font-family: 'Lato', sans-serif;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid rgb(230, 225, 88) ;
+    margin: 10px 0;
+}
+.input-all{
+    color: white;
+    padding: 3px;
+}
+
+label{
+    margin-right: 70px;
+}
+
+span{
+    color:red;
+}
+
+select{
+    background-color: transparent;
+    border: 1px solid rgb(230, 225, 88);
+    color: white;
+    transform: translateX(127px);
+    width: 36px;
+    text-align: center;
+}
+
+p{
+    display: inline-block;
+}
+
+/* this is login form styles */
+
+#login{
+    width: 605px;
+    min-height: 700px;
+    margin: auto;
+    background-image: url('../images/cheeseknife-set-12.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.login-form{
+    width: 520px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 8px;
+    border: 2px solid #080808;
+    font: size 15px;
+}
+
+/* this is header styls */
+
+.login-form h1{
+    font-size: 27px;
+    margin: 30px 70px;
+}
+
+.login-form .title{
+    color: white;
+    border-bottom: 3px dotted rgb(230, 225, 88);
+    font-size: 11px;
+    padding: 0px 45px 8px 26px;
+    margin: 0 15px;
+}
+
+/* this is form styls */
+
+.form{
+    margin: 20px 55px;
+}
+
+.name-first{
+    width: 100px;
+    margin-bottom: 0;
+}
+
+.name-lable{
+    transform: translateX(100px);
+    margin-left: 56px;
+}
+
+.input-email{
+    width: 207px;
+    margin-left: 2px;
+}
+
+.input-phon{
+    width: 59px;
+    margin-bottom :0px;
+}
+
+.number{
+    transform: translateX(95px);
+    margin-left: 40px;
+}
+
+.check-box{
+    margin-left: -13px;
+}
+
+.total{
+    width: 170px;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 19px 96px;
+    color: white;
+}
+
+.total-1{
+    border-bottom: 2px solid #aaa;
+}
+
+.total-2{
+    font-size: 11px;
+}
+
+.total .p-1{
+    padding: 5px;
+}
+
+.total .p-2{
+    padding: 0 0 0 65px;
+}
+
+.total .p-2-2{
+    padding: 5px 0 5px 110px;
+}
+
+.btn{
+    color: white;
+    width: 170px;
+    height: 40px;
+    background-color:#f23128;
+    margin: 10px 0 30px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    transform: translate(95px ,6px);
+    text-transform: uppercase;
+}
